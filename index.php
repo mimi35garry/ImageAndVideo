@@ -1,7 +1,5 @@
 <?php
 session_start();
-//if(isset($_SESSION['hf']))
-//  {echo $_SESSION['hf'];}
 ?>
 <!DOCTYPE html">
 <html lang="fr">

@@ -10,7 +10,7 @@ session_start();
   </head>
 <!--Todo
 voir pour activer led ir
-voir pour page shutdown, reste bloquer dessus
+voir pour page shutdown, reste bloquer dessus, pas toujours
 voir pour mettre une led pour lactiviter de la camera
 voir pour indiquer la fin de la conversion-->
 <?php
@@ -19,7 +19,7 @@ voir pour indiquer la fin de la conversion-->
     $si_prefix = array( 'B', 'KB', 'MB', 'GB', 'TB', 'EB', 'ZB', 'YB' );
     $base = 1024;
     $class = min((int)log($bytes , $base) , count($si_prefix) - 1);
-    echo sprintf('Espace libre : '.'%1.2f' , $bytes / pow($base,$class)) . ' ' . $si_prefix[$class] . '<br />';
+    echo sprintf('Espace libre : '.'%1.2f' , $bytes / pow($base,$class)) . ' ' . $si_prefix[$class] . '<br>';
 
 //https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/ -->tuto pour creer un point dacces
 //http://www.handsdown.be/raspicam/index.html --> parametre pour raspivid et raspicam

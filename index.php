@@ -37,7 +37,7 @@ echo "<table>";
     echo "<td>Enregistrement</td>";
   echo  "</tr>";
 echo "</table>";
-echo "Merci d'éteindre 'proprement' le raspberry pi </br>avec le bouton ci-dessous</br>";
+echo "Merci d'éteindre 'proprement' le raspberry pi <br>avec le bouton ci-dessous<br>";
 echo '<a href="eteindre.php"><img src="eteindre.png" width=60 height=60 id="eteindre" alt="éteindre"/></a>';
 ?>
 

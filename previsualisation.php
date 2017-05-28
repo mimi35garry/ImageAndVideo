@@ -18,6 +18,7 @@ session_start();
 </table>
 <input type="checkbox" name="hflip" value="hf" id = "idhf"> Retournement horizontale
 <input type="checkbox" name="vflip" value="vf" id = "idvf"> Retournement verticale
+<br>
 <img src="./image/image" width=900 height=900 id="myimg">
 
 

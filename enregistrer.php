@@ -22,17 +22,17 @@ TODO:
 <?php
 if (isset($_SESSION['hf']) && !empty($_SESSION['hf'])) {
     if($_SESSION['hf']=="true")
-		{echo "</br>Retournement horizontal";}
+		{echo "<br>Retournement horizontal";}
 }
 if (isset($_SESSION['vf']) && !empty($_SESSION['vf'])) {
     if($_SESSION['vf']=="true")
-		{echo "</br>Retournement vertical";}
+		{echo "<br>Retournement vertical";}
 }
 ?>
-<p>Nombre d'images par seconde</br>Minimum 10, Maximum 90</br>
+<p>Nombre d'images par seconde<br>Minimum 10, Maximum 90<br>
 <input type="number" step="10" value="90" min="10" max="90" name="frameRate" id="idframerate"/>
 </p>
-<p>Nombre de millisecondes pour la durée de l'enregistrement</br>Minimum 10000, Maximun 120000</br>
+<p>Nombre de millisecondes pour la durée de l'enregistrement<br>Minimum 10000, Maximun 120000<br>
 <input type="number" step="10000" value="10000" min="10000" max="120000" name="temp" id="idtemp"/>
 </p>
 <p><input type="button" value="Démarrer" name="Enregistrer" id="idenregistrer"></p>

@@ -13,9 +13,9 @@
 <td><a href='index.php'>Accueil</a></td>
 </tr>
 </table>
-Attendre la fin de l'enregistrement avant de faire la conversion</br>
-Le fichier .h264 est supprimé à la fin de la conversion</br>
-jour-mois-année_heure-minute-seconde</br>
+Attendre la fin de l'enregistrement avant de faire la conversion<br>
+Le fichier .h264 est supprimé à la fin de la conversion<br>
+jour-mois-année_heure-minute-seconde<br>
 <?php
 $debuth264 = "/var/www/html/ralentiVideo/h264/";
 $debutmp4 = " /var/www/html/ralentiVideo/video_mp4/";
